@@ -45,17 +45,3 @@
 
 
 
-<!-- 
-let request = new XMLHttpRequest();
-request.open('GET', "https://restcountries.com/v3.1/all", true);
-request.send();
-
-request.onload = function(){
-  let data = JSON.parse(request.response);
-  data.forEach(element=>{
-    if(element.currencies?.USD != undefined){
-      console.log(element.name.common);
-    }});
-}      
-
--->
